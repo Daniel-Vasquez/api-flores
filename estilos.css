@@ -68,7 +68,7 @@ li {
   width: 320px;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 380px) {
   #main {
     display: flex;
     flex-direction: column;
