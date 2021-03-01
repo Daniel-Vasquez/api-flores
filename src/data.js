@@ -61,7 +61,7 @@ const flowers = [
     },
     {
       id: 11,
-      name: "Camelias",
+      name: "Camelias.",
       description: "La Camelia llegó a Europa hace más de 4 siglos, procedente del continente asiático. \n Las Camelias son tan fieles a la exhibición de su belleza que sus tallos con hojas de verde intenso, son capaces de florecer incluso aun cuando se asoma el período invernal.",
       image: "https://hddesktopwallpapers.in/wp-content/uploads/2015/08/pink-camellia-hd.jpg"
     },

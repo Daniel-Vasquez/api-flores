@@ -11,35 +11,24 @@
       name="description"
       content="Web site created using create-snowpack-app"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="./estilos.css"
-    />
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
     <title>Aranza gv</title>
   </head>
   <body>
-    <!-- <p>Snowpack & Tailwind App</p> -->
-    <div class="mx-auto px-4" style="margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem;">
-      <div class="text-center" style="text-align: center;">
-        <h3>
-          Flowers API.
-        </h3>
-        <p>
-          Tú me inspiras...
-        </p>
-      </div>
-      <div id="container">
-        <div id="main">
-          <ul id="api-flores"></ul>
-          <section>
-            <img id="foto" src="" alt="Me rompi ):" />
-            <p id="name"></p>
-            <p id="description"></p>
-          </section>
-        </div>
+    <div id="container">
+      <h3>Garden Fresh.</h3>
+      <p>Tú me inspiras...</p>
+      <div id="main">
+        <select name="api" id="api-select"></select>
+        <!-- <ul id="api-flores"></ul> -->
+        <section>
+          <img id="foto" src="" alt="Me rompi ):" />
+          <p id="name"></p>
+          <p id="description"></p>
+        </section>
       </div>
     </div>
-    <script type="module" src="./index.js"></script>
+    <!-- <script type="module" src="./index.js"></script> -->
+    <script type="module" src="./src/select.js"></script>
   </body>
 </html>

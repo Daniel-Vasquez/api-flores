@@ -32,8 +32,8 @@ function pintarFlores(flowers) {
   });
 }
 
-function pintarFlor(flowers) {
-  const { image, name, description } = flowers || {};
+function pintarFlor(flower) {
+  const { image, name, description } = flower || {};
 
   foto_flor.src =
     image ||
